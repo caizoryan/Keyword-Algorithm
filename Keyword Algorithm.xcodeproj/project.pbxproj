@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47B35D2E9C26B2AE7D3D13DC /* Pods_Keyword_Algorithm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2837BD715647769BD6A6E72 /* Pods_Keyword_Algorithm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4E4E1AE01B6DDDED006D8B16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E1ADF1B6DDDED006D8B16 /* AppDelegate.swift */; };
 		4E4E1AE21B6DDDED006D8B16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E1AE11B6DDDED006D8B16 /* ViewController.swift */; };
 		4E4E1AE51B6DDDED006D8B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E1AE31B6DDDED006D8B16 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		4E4E1AEA1B6DDDED006D8B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E1AE81B6DDDED006D8B16 /* LaunchScreen.storyboard */; };
 		4E4E1AF51B6DDDED006D8B16 /* Keyword_AlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E1AF41B6DDDED006D8B16 /* Keyword_AlgorithmTests.swift */; };
 		4E4E1B001B6DDDEE006D8B16 /* Keyword_AlgorithmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E1AFF1B6DDDEE006D8B16 /* Keyword_AlgorithmUITests.swift */; };
+		4EC4C6BF1B6FBFE90085A8EA /* Timepiece.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC4C6BE1B6FBFE90085A8EA /* Timepiece.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		4E4E1AFB1B6DDDED006D8B16 /* Keyword AlgorithmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyword AlgorithmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E4E1AFF1B6DDDEE006D8B16 /* Keyword_AlgorithmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyword_AlgorithmUITests.swift; sourceTree = "<group>"; };
 		4E4E1B011B6DDDEE006D8B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC4C6BE1B6FBFE90085A8EA /* Timepiece.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Timepiece.framework; path = "Pods/../build/Debug-iphoneos/Timepiece.framework"; sourceTree = "<group>"; };
+		7B7BA297830D2550CD797CAE /* Pods-Keyword Algorithm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyword Algorithm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Keyword Algorithm/Pods-Keyword Algorithm.debug.xcconfig"; sourceTree = "<group>"; };
+		D2837BD715647769BD6A6E72 /* Pods_Keyword_Algorithm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keyword_Algorithm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3E9BAE4AE7B45B8DF1CE12 /* Pods-Keyword Algorithm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyword Algorithm.release.xcconfig"; path = "Pods/Target Support Files/Pods-Keyword Algorithm/Pods-Keyword Algorithm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC4C6BF1B6FBFE90085A8EA /* Timepiece.framework in Frameworks */,
+				47B35D2E9C26B2AE7D3D13DC /* Pods_Keyword_Algorithm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CC8A439BB2576A6E52CC4E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EC4C6BE1B6FBFE90085A8EA /* Timepiece.framework */,
+				D2837BD715647769BD6A6E72 /* Pods_Keyword_Algorithm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4E4E1AD31B6DDDED006D8B16 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,8 @@
 				4E4E1AF31B6DDDED006D8B16 /* Keyword AlgorithmTests */,
 				4E4E1AFE1B6DDDED006D8B16 /* Keyword AlgorithmUITests */,
 				4E4E1ADD1B6DDDED006D8B16 /* Products */,
+				C15B188ACB2F970AA62812C1 /* Pods */,
+				4CC8A439BB2576A6E52CC4E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +144,15 @@
 			path = "Keyword AlgorithmUITests";
 			sourceTree = "<group>";
 		};
+		C15B188ACB2F970AA62812C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B7BA297830D2550CD797CAE /* Pods-Keyword Algorithm.debug.xcconfig */,
+				FA3E9BAE4AE7B45B8DF1CE12 /* Pods-Keyword Algorithm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E4E1B041B6DDDEE006D8B16 /* Build configuration list for PBXNativeTarget "Keyword Algorithm" */;
 			buildPhases = (
+				9120276AD1E9DB5C623E6BF3 /* Check Pods Manifest.lock */,
 				4E4E1AD81B6DDDED006D8B16 /* Sources */,
 				4E4E1AD91B6DDDED006D8B16 /* Frameworks */,
 				4E4E1ADA1B6DDDED006D8B16 /* Resources */,
+				C69B89B0F3932297B44F7629 /* Embed Pods Frameworks */,
+				6112566B7526BD063C054DDD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6112566B7526BD063C054DDD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Keyword Algorithm/Pods-Keyword Algorithm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9120276AD1E9DB5C623E6BF3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C69B89B0F3932297B44F7629 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Keyword Algorithm/Pods-Keyword Algorithm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E4E1AD81B6DDDED006D8B16 /* Sources */ = {
@@ -396,8 +475,13 @@
 		};
 		4E4E1B051B6DDDEE006D8B16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7BA297830D2550CD797CAE /* Pods-Keyword Algorithm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Keyword Algorithm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "craizecorp.Keyword-Algorithm";
@@ -407,8 +491,13 @@
 		};
 		4E4E1B061B6DDDEE006D8B16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3E9BAE4AE7B45B8DF1CE12 /* Pods-Keyword Algorithm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Keyword Algorithm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "craizecorp.Keyword-Algorithm";
@@ -483,6 +572,7 @@
 				4E4E1B061B6DDDEE006D8B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E4E1B071B6DDDEE006D8B16 /* Build configuration list for PBXNativeTarget "Keyword AlgorithmTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +581,7 @@
 				4E4E1B091B6DDDEE006D8B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E4E1B0A1B6DDDEE006D8B16 /* Build configuration list for PBXNativeTarget "Keyword AlgorithmUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +590,7 @@
 				4E4E1B0C1B6DDDEE006D8B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

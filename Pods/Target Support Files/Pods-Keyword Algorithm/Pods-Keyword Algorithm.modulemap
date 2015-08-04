@@ -1,0 +1,6 @@
+framework module Pods_Keyword_Algorithm {
+  umbrella header "Pods-Keyword Algorithm-umbrella.h"
+
+  export *
+  module * { export * }
+}
